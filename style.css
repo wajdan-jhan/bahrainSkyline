@@ -132,6 +132,7 @@ body {
 }
 .icon{
 color:  #a6cb5f;
+transform: translateX(-3rem);
 }
 /* end of hero */
 /* about */
@@ -313,7 +314,7 @@ color:  #a6cb5f;
 }
 .links {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2.5rem;
 }
 .foot-links ul,
