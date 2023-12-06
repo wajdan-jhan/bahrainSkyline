@@ -126,25 +126,25 @@ body {
   top: 50%;
   left: 5%;
   right: 5%;
-  bottom:50%;                                                                                                                                    
+  bottom: 50%;
   color: white;
   text-shadow: 2px 2px black;
 }
-.icon{
-color:  #a6cb5f;
-font-size: 2rem;
-margin-right: 0.7rem;
+.icon {
+  color: #a6cb5f;
+  font-size: 2rem;
+  margin-right: 0.7rem;
 }
-.social-links{
+.social-links {
   font-size: 2rem;
 }
-.contact-center{
- 
+.contact-center {
 }
 /* end of hero */
 /* about */
 .about {
-  background: white;}
+  background: white;
+}
 .animated-text {
   opacity: 0;
   transform: translateY(20px);
@@ -328,7 +328,6 @@ margin-right: 0.7rem;
   justify-content: center;
   width: 100%;
   height: 100%;
-
 }
 .foot-links ul,
 .social-links ul {
@@ -361,7 +360,7 @@ margin-right: 0.7rem;
 .plan {
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
-  background-color:white;
+  background-color: white;
   color: rgb(53, 59, 65);
   width: 100%;
   height: 100%;
@@ -705,77 +704,38 @@ margin-right: 0.7rem;
   }
 }
 
-
-
 /* contact form */
-
-
-.inputbox {
-  margin:5rem;
-}
-form {
-  text-align:center;
-  background-color:rgba(193, 188, 188, 0.046);
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  color: rgba(70, 67, 67, 0.881);
-  margin: 0 auto;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.121);
-}
-
-.inputbox input[type=text],textarea{
-    border: 0;
-    border-bottom: 1px solid #a8c545;
-    background-color: transparent;
-    color: #333;
-    outline: 0;
-    width: 100%;
-    text-indent: 0;
-    font-size: 15px;
-    font-weight: 700;
-    margin: 0;
-    border-radius: 0;
-    line-height: normal;
-    box-shadow: none;
-    box-sizing: content-box;
-    transition: all 0.1s ease-out;
-}
-.inputbox input[type=text]:focus {
-  border-bottom: 2px solid #a8c545;
-}
-.inputbox label {
-
-}
-label {
-    /* display: inline-block;
-    max-width: 100%;
-  font-family: Roboto;
-color:  #3b2f22;
-font-size: 0.875rem;
-font-weight: 400;
-text-align: left; */
-}
-label, input, textarea {
-  padding: 0.5em 0.3em;
-}
-.inputbox label.active {
-    /* font-size: 13px;
-    font-weight: 400;
-  font-family: Roboto;
-  color: #a8c545;
-  font-size: 0.813rem;
-  font-weight: 400;
-  text-align: left;
-    transform: translate(0%, -100%); */
+.btn-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
+  border-radius: 30px;
+  border: 1px solid #8f9092;
+  transition: all 0.2s ease;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  margin: 1rem auto;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
 }
 
-.textarea label.active {
-  top:0;
+.btn-1:hover {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 3px 3px #cecfd1;
 }
-.data{
-font-size: 1rem;
-display: flex;
-justify-content: center;
-align-items: center;
+
+.btn-1:active {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+.btn-1:focus {
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
